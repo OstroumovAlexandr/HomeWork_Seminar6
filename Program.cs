@@ -1,9 +1,25 @@
 ﻿// Задача 1:
 
 // Проверка на палиндромность 5-ти значного числа
+/*
+Console.Write("Введи пятизначное число: ");
+int number = int.Parse(Console.ReadLine()!); // поэтому преобразуем введенные значения в цифры
+string Num = Convert.ToString(number); // 1-ый способ КОНВЕРТИРОВАНИЯ переменной "int number" в "string number"
+if(Num.Length == 5)
+{
+    if((Num[0] == Num[4]) && (Num[1] == Num[3]))
+    {
+    Console.WriteLine($"Введенное число {Num} является палиндромом.");
+    }
+    else{
+       Console.WriteLine($"Введенное число {Num} НЕ является палиндромом."); 
+    }
+}
+else{
+    Console.WriteLine($"Введите ПЯТИЗНАЧНОЕ !!! число");
+}
 
-
-
+*/
 
 
 
